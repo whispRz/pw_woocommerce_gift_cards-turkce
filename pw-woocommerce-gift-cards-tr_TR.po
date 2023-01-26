@@ -1,0 +1,2481 @@
+# Copyright (C) 2022 Pimwick, LLC
+# This file is distributed under the same license as the PW WooCommerce Gift Cards Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: PW WooCommerce Gift Cards Pro 1.392\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pw-gift-cards\n"
+"Last-Translator: \n"
+"Language-Team: Türkçe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-17T17:19:23+00:00\n"
+"PO-Revision-Date: 2023-01-26 08:01+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: pw-woocommerce-gift-cards\n"
+"Language: tr-TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#. Plugin Name of the plugin
+msgid "PW WooCommerce Gift Cards Pro"
+msgstr "WooCommerce Hediye Kartları Pro"
+
+#. Plugin URI of the plugin
+msgid "https://www.pimwick.com/gift-cards/"
+msgstr "https://www.iyifikirmedya.com"
+
+#. Description of the plugin
+msgid "Sell gift cards in your WooCommerce store."
+msgstr "WooCommerce mağazanızda hediye kartları satın."
+
+#. Author of the plugin
+msgid "Pimwick, LLC"
+msgstr "Pimwick, LLC"
+
+#. Author URI of the plugin
+msgid "https://www.pimwick.com"
+msgstr "https://www.iyifikirmedya.com"
+
+#: admin/pw-gift-cards-admin.php:16 admin/pw-gift-cards-admin.php:321 
+#: admin/pw-gift-cards-admin.php:332 admin/pw-gift-cards-admin.php:344 
+#: admin/pw-gift-cards-admin.php:345 admin/pw-gift-cards-admin.php:363 
+#: admin/pw-gift-cards-admin.php:364 admin/pw-gift-cards-admin.php:731
+msgid "PW Gift Cards"
+msgstr "Hediye kartları"
+
+#: admin/pw-gift-cards-admin.php:22
+msgid "Allow Scheduled Delivery"
+msgstr "Planlanmış Teslimata İzin Ver"
+
+#: admin/pw-gift-cards-admin.php:23
+msgid ""
+"Provides a \"Delivery Date\" for the purchasing customer to specify that the "
+"gift card should be delivered on a certain date. Otherwise gift cards are "
+"delivered as soon as the order is marked Complete. Default: Checked."
+msgstr ""
+"Satın alan müşteriye, hediye kartının belirli bir tarihte teslim edilmesi "
+"gerektiğini belirtmesi için bir \"Teslimat Tarihi\" sağlar. Aksi takdirde "
+"hediye kartları, sipariş Tamamlandı olarak işaretlenir işaretlenmez teslim "
+"edilir. Varsayılan: İşaretlendi."
+
+#: admin/pw-gift-cards-admin.php:29
+msgid "Calendar Format"
+msgstr "Takvim Biçimi"
+
+#: admin/pw-gift-cards-admin.php:30
+msgid ""
+"If Scheduled Delivery is allowed, this is the date format that will appear "
+"for the Delivery Date calendar. Default: YYYY-MM-DD"
+msgstr ""
+"Planlanmış Teslimata izin verilirse, Teslimat Tarihi takvimi için görünecek "
+"tarih formatı budur. Varsayılan: YYYY-AA-GG"
+
+#: admin/pw-gift-cards-admin.php:36
+msgid "Calendar First Day of the Week"
+msgstr "Takvim Haftanın İlk Günü"
+
+#: admin/pw-gift-cards-admin.php:37
+msgid ""
+"If Scheduled Delivery is allowed, this indicates the first day of the week "
+"for the Delivery Date calendar. 0 = Sunday, 1 = Monday. Default: 0 (Sunday)"
+msgstr ""
+"Planlanmış Teslimata izin verilirse bu, Teslimat Tarihi takvimi için "
+"haftanın ilk gününü gösterir. 0 = Pazar, 1 = Pazartesi. Varsayılan: 0 (Pazar)"
+
+#: admin/pw-gift-cards-admin.php:43
+msgid "Auto Complete Orders"
+msgstr "Siparişleri Otomatik Tamamla"
+
+#: admin/pw-gift-cards-admin.php:44
+msgid ""
+"When an order only contains gift cards, automatically mark the order as "
+"Complete to send the gift cards immediately."
+msgstr ""
+"Bir sipariş yalnızca hediye kartları içeriyorsa, hediye kartlarını hemen "
+"göndermek için siparişi otomatik olarak Tamamlandı olarak işaretleyin."
+
+#: admin/pw-gift-cards-admin.php:50
+msgid "Send When Order Received"
+msgstr "Sipariş Alındığında Gönder"
+
+#: admin/pw-gift-cards-admin.php:51
+msgid ""
+"By default we wait until the order status is Complete before generating and "
+"emailing the gift card. Check this box to send the gift card immediately "
+"when the order is received. Scheduled gift cards will still be sent on the "
+"scheduled date. Default: Unchecked"
+msgstr ""
+"Hediye kartını oluşturmadan ve e-postayla göndermeden önce varsayılan olarak "
+"sipariş durumunun Tamamlandı olmasını bekleriz. Sipariş alındığında hediye "
+"kartını hemen göndermek için bu kutuyu işaretleyin. Planlanan hediye "
+"kartları, planlanan tarihte gönderilmeye devam edecek. Varsayılan: "
+"İşaretlenmemiş"
+
+#: admin/pw-gift-cards-admin.php:57
+msgid "Disable Expiration Date"
+msgstr "Son Kullanma Tarihini Devre Dışı Bırak"
+
+#: admin/pw-gift-cards-admin.php:58
+msgid ""
+"If the law in your area prohibits an expiration date for gift cards, you can "
+"disable Expiration Dates system wide. This will hide all buttons, options, "
+"and mention of an expiration date. Default: Unchecked."
+msgstr ""
+"Bölgenizdeki yasalar hediye kartları için bir son kullanma tarihini "
+"yasaklıyorsa sistem genelinde Son Kullanma Tarihlerini devre dışı "
+"bırakabilirsiniz. Bu, tüm düğmeleri, seçenekleri gizleyecek ve bir son "
+"kullanma tarihinden bahsedecektir. Varsayılan: İşaretlenmemiş."
+
+#: admin/pw-gift-cards-admin.php:64
+msgid "Buy Gift Cards with Gift Cards"
+msgstr "Hediye Kartları ile Hediye Kartları Satın Alın"
+
+#: admin/pw-gift-cards-admin.php:65
+msgid ""
+"Allow customers to purchase gift cards using another gift card. Disable this "
+"to prevent customers from extending the date on expiring gift cards. Default:"
+" Unchecked."
+msgstr ""
+"Müşterilerin başka bir hediye kartı kullanarak hediye kartı satın almalarına "
+"izin verin. Müşterilerin süresi dolan hediye kartlarının tarihini uzatmasını "
+"önlemek için bunu devre dışı bırakın. Varsayılan: İşaretlenmemiş."
+
+#: admin/pw-gift-cards-admin.php:71
+msgid "Check Balance on My Account"
+msgstr "Hesabımdaki Bakiyeyi Kontrol Et"
+
+#: admin/pw-gift-cards-admin.php:72
+msgid ""
+"When enabled, a link to the Check Balance page will be added to the My "
+"Account page. Default: checked"
+msgstr ""
+"Etkinleştirildiğinde, Bakiyeyi Kontrol Et sayfasına bir bağlantı Hesabım "
+"sayfasına eklenecektir. Varsayılan: işaretli"
+
+#: admin/pw-gift-cards-admin.php:78
+msgid "Allow Reloading"
+msgstr "Yeniden Yüklemeye İzin Ver"
+
+#: admin/pw-gift-cards-admin.php:79
+msgid ""
+"When enabled, customers can add funds to an existing gift card from the "
+"Check Balance page."
+msgstr ""
+"Etkinleştirildiğinde, müşteriler Bakiyeyi Kontrol Et sayfasından mevcut bir "
+"hediye kartına para ekleyebilir."
+
+#: admin/pw-gift-cards-admin.php:85
+msgid "Allow Manual Debit"
+msgstr "Manuel Borçlandırmaya İzin Ver"
+
+#: admin/pw-gift-cards-admin.php:86
+msgid ""
+"When enabled, customers or store employees can debit funds from an existing "
+"gift card from the Check Balance page. Useful for physical stores where "
+"customers will redeem the card for in store purchases."
+msgstr ""
+"Etkinleştirildiğinde, müşteriler veya mağaza çalışanları Bakiyeyi Kontrol Et "
+"sayfasından mevcut bir hediye kartından para çekebilir. Müşterilerin kartı "
+"mağaza içi satın alımlar için kullanacakları fiziksel mağazalar için "
+"kullanışlıdır."
+
+#: admin/pw-gift-cards-admin.php:92
+msgid "Show Activity on Check Balance Page"
+msgstr "Bakiyeyi Kontrol Et Sayfasında Etkinliği Göster"
+
+#: admin/pw-gift-cards-admin.php:93
+msgid ""
+"When enabled, detailed transaction history will be shown on the Check "
+"Balance page."
+msgstr ""
+"Etkinleştirildiğinde, Bakiyeyi Kontrol Et sayfasında ayrıntılı işlem geçmişi "
+"gösterilecektir."
+
+#: admin/pw-gift-cards-admin.php:99
+msgid "Use the WooCommerce Transactional Email System"
+msgstr "WooCommerce İşlemsel E-posta Sistemini Kullanın"
+
+#: admin/pw-gift-cards-admin.php:100
+msgid ""
+"Enabled by default. If you are not receiving your gift card emails, try "
+"disabling this setting."
+msgstr ""
+"Varsayılan olarak etkindir. Hediye kartı e-postalarınızı almıyorsanız, bu "
+"ayarı devre dışı bırakmayı deneyin."
+
+#: admin/pw-gift-cards-admin.php:106
+msgid "Allow Background Images"
+msgstr "Arka Plan Resimlerine İzin Ver"
+
+#: admin/pw-gift-cards-admin.php:107
+msgid ""
+"Disabled by default. Check this box to allow a background image to be set in "
+"the Email Designer. Outlook does not display background images."
+msgstr ""
+"Varsayılan olarak devre dışı. E-posta Tasarımcısında bir arka plan resminin "
+"ayarlanmasına izin vermek için bu kutuyu işaretleyin. Outlook arka plan "
+"resimlerini göstermez."
+
+#: admin/pw-gift-cards-admin.php:113
+msgid "Apply Fix For Missing Fields"
+msgstr "Eksik Alanlar İçin Düzeltmeyi Uygula"
+
+#: admin/pw-gift-cards-admin.php:114
+msgid ""
+"If you do not see the To / From / Message fields on your gift card product "
+"page, try checking this box and reloading. Some themes have out of date "
+"WooCommerce template files and need to be patched to work with the Gift Card "
+"product."
+msgstr ""
+"Hediye kartı ürün sayfanızda Kime / Kimden / Mesaj alanlarını görmüyorsanız, "
+"bu kutuyu işaretleyip yeniden yüklemeyi deneyin. Bazı temaların güncel "
+"olmayan WooCommerce şablon dosyaları vardır ve Hediye Kartı ürünüyle "
+"çalışması için yamaların uygulanması gerekir."
+
+#: admin/pw-gift-cards-admin.php:120
+msgid "Format Prices"
+msgstr "Format Fiyatları"
+
+#: admin/pw-gift-cards-admin.php:121
+msgid ""
+"For fixed gift card amounts, format the price with the system currency "
+"symbol. This is enabled by default. If you are having trouble with currency "
+"switchers, disable this setting. Note: You must remove and re-add your fixed "
+"gift card amounts if you change this setting."
+msgstr ""
+"Sabit hediye kartı tutarları için fiyatı sistem para birimi simgesiyle "
+"biçimlendirin. Bu varsayılan olarak etkindir. Para birimi değiştiricilerle "
+"ilgili sorun yaşıyorsanız bu ayarı devre dışı bırakın. Not: Bu ayarı "
+"değiştirirseniz, sabit hediye kartı tutarlarınızı kaldırıp yeniden eklemeniz "
+"gerekir."
+
+#: admin/pw-gift-cards-admin.php:127
+msgid "Pre-populate the \"From\" Field"
+msgstr "\"Gönderen\" Alanını önceden doldurun"
+
+#: admin/pw-gift-cards-admin.php:128
+msgid ""
+"If the customer is logged in, populate the From field with the Display Name "
+"value for their account. Default: Checked."
+msgstr ""
+"Müşteri oturum açmışsa Kimden alanını hesabı için Görünen Ad değeriyle "
+"doldurun. Varsayılan: İşaretlendi."
+
+#: admin/pw-gift-cards-admin.php:134
+msgid "Allow Multiple Recipients"
+msgstr "Birden Fazla Alıcıya İzin Ver"
+
+#: admin/pw-gift-cards-admin.php:135
+msgid ""
+"Similar to how Amazon works, allow multiple recipient email addresses when "
+"purchasing a gift card. Default: Checked."
+msgstr ""
+"Amazon'un çalışma şekline benzer şekilde, bir hediye kartı satın alırken "
+"birden çok alıcı e-posta adresine izin verin. Varsayılan: İşaretlendi."
+
+#: admin/pw-gift-cards-admin.php:141
+msgid "Carbon Copy"
+msgstr "Karbon kopya"
+
+#: admin/pw-gift-cards-admin.php:142
+msgid ""
+"When a gift card is emailed, carbon copy these addresses. Separate multiple "
+"emails with a comma."
+msgstr ""
+"Bir hediye kartı e-postayla gönderildiğinde, bu adresleri kopyalayın. Birden "
+"çok e-postayı virgülle ayırın."
+
+#: admin/pw-gift-cards-admin.php:148
+msgid "Blind Carbon Copy"
+msgstr "Kör Karbon Kopya"
+
+#: admin/pw-gift-cards-admin.php:149
+msgid ""
+"When a gift card is emailed, blind carbon copy these addresses. Separate "
+"multiple emails with a comma."
+msgstr ""
+"Bir hediye kartı e-postayla gönderildiğinde, bu adresleri kör karbon "
+"kopyalayın. Birden çok e-postayı virgülle ayırın."
+
+#: admin/pw-gift-cards-admin.php:155
+msgid "Send to the Buyer"
+msgstr "Alıcıya gönder"
+
+#: admin/pw-gift-cards-admin.php:156
+msgid ""
+"When a gift card is emailed, blind carbon copy the gift card to the "
+"purchasing customer."
+msgstr ""
+"Bir hediye kartı e-postayla gönderildiğinde, hediye kartını satın alan "
+"müşteriye kör kopyalayın."
+
+#: admin/pw-gift-cards-admin.php:162
+msgid "Redeem Location - Cart"
+msgstr "Konumu Kullan - Sepet"
+
+#: admin/pw-gift-cards-admin.php:163
+msgid "Specifies where the \"Apply Gift Card\" box appears on the Cart page."
+msgstr ""
+"Sepet sayfasında \"Hediye Kartını Uygula\" kutusunun nerede görüneceğini "
+"belirtir."
+
+#: admin/pw-gift-cards-admin.php:171
+msgid "Above the \"Proceed to Checkout\" button."
+msgstr "\"Ödeme İşlemine Devam Et\" düğmesinin üstünde."
+
+#: admin/pw-gift-cards-admin.php:172 admin/pw-gift-cards-admin.php:187
+msgid "Below the \"Apply Coupon\" area."
+msgstr "\"Kuponu Uygula\" alanının altında."
+
+#: admin/pw-gift-cards-admin.php:173 admin/pw-gift-cards-admin.php:188
+msgid "Do not display gift card field."
+msgstr "Hediye kartı alanını gösterme."
+
+#: admin/pw-gift-cards-admin.php:177
+msgid "Redeem Location - Checkout"
+msgstr "Konumu Kullan - Ödeme"
+
+#: admin/pw-gift-cards-admin.php:178
+msgid ""
+"Specifies where the \"Apply Gift Card\" box appears on the Checkout page."
+msgstr ""
+"Ödeme sayfasında \"Hediye Kartını Uygula\" kutusunun nerede görüneceğini "
+"belirtir."
+
+#: admin/pw-gift-cards-admin.php:186
+msgid "Below the \"Payment Methods\" area."
+msgstr "\"Ödeme Yöntemleri\" alanının altında."
+
+#: admin/pw-gift-cards-admin.php:192
+msgid "Coupon Code Field Input"
+msgstr "Kupon Kodu Alanı Girişi"
+
+#: admin/pw-gift-cards-admin.php:193
+msgid ""
+"Allow gift card numbers to be entered into the Coupon Code field to be "
+"redeemed. Default: checked."
+msgstr ""
+"Kupon Kodu alanına hediye çeki numaralarının girilerek kullanılmasına izin "
+"verilir. Varsayılan: işaretli."
+
+#: admin/pw-gift-cards-admin.php:199
+msgid "Remove card after checkout"
+msgstr "Ödeme yaptıktan sonra kartı çıkarın"
+
+#: admin/pw-gift-cards-admin.php:200
+msgid ""
+"After an order is placed the gift card will remain in the session for use "
+"with future purchases. Check this box to automatically remove the card from "
+"the session instead. Default: Unchecked"
+msgstr ""
+"Bir sipariş verildikten sonra, hediye kartı gelecekteki satın alımlarda "
+"kullanılmak üzere oturumda kalacaktır. Bunun yerine kartı oturumdan otomatik "
+"olarak çıkarmak için bu kutuyu işaretleyin. Varsayılan: İşaretlenmemiş"
+
+#: admin/pw-gift-cards-admin.php:206
+msgid "Use Font Awesome Icon"
+msgstr "Harika Yazı Tipi Simgesini Kullan"
+
+#. translators: %s is a link to the Font Awesome website.
+#: admin/pw-gift-cards-admin.php:208
+msgid ""
+"On the customer facing \"Check Balance\" page, show a gift card icon from "
+"the %s library."
+msgstr ""
+"Müşteriye bakan \"Bakiyeyi Kontrol Et\" sayfasında, %s kitaplığından bir "
+"hediye kartı simgesi gösterin."
+
+#: admin/pw-gift-cards-admin.php:214
+msgid "Default Redeem URL"
+msgstr "Varsayılan Kullanım URL'si"
+
+#: admin/pw-gift-cards-admin.php:215
+msgid ""
+"The link for the Redeem button on the gift card email. Include the https "
+"prefix, the Gift Card Number is automatically appended in the URL. Can be "
+"different per Design."
+msgstr ""
+"Hediye kartı e-postasındaki Kullan düğmesinin bağlantısı. https ön ekini "
+"ekleyin, Hediye Kartı Numarası URL'ye otomatik olarak eklenir. Tasarım "
+"başına farklı olabilir."
+
+#: admin/pw-gift-cards-admin.php:222
+msgid "Show Balances by Date"
+msgstr "Bakiyeleri Tarihe Göre Göster"
+
+#: admin/pw-gift-cards-admin.php:223
+msgid ""
+"On the Balances page in the admin area, optionally show a date picker to "
+"show the balances as of a certain date."
+msgstr ""
+"Yönetici alanındaki Bakiyeler sayfasında, isteğe bağlı olarak belirli bir "
+"tarih itibariyle bakiyeleri göstermek için bir tarih seçici gösterin."
+
+#: admin/pw-gift-cards-admin.php:293
+msgid "Configuration error detected by"
+msgstr "tarafından algılanan yapılandırma hatası"
+
+#: admin/pw-gift-cards-admin.php:294
+msgid ""
+"Your PayPal payment gateway is incorrectly configured. You should not have "
+"both IPN and PDT enabled. The \"IPN Email Notifications\" setting is enabled "
+"and there is also a \"PayPal Identity Token\" (PDT) value set. PayPal is "
+"reaching back to your site twice to confirm the payment. This causes things "
+"to happen twice including email notifications, stock reduction, and gift "
+"card generation. Go to WooCommerce -> Settings -> Payments -> PayPal and "
+"either clear the value from the \"PayPal Identity Token\" field or disable "
+"the \"IPN Email Notifications\" setting."
+msgstr ""
+"PayPal ödeme ağ geçidiniz yanlış yapılandırılmış. Hem IPN hem de PDT'yi "
+"etkinleştirmemelisiniz. \"IPN E-posta Bildirimleri\" ayarı etkinleştirildi "
+"ve ayrıca bir \"PayPal Kimlik Simgesi\" (PDT) değeri seti var. PayPal, "
+"ödemeyi onaylamak için sitenize iki kez ulaşıyor. Bu, e-posta bildirimleri, "
+"stok azaltma ve hediye kartı oluşturma gibi şeylerin iki kez olmasına neden "
+"olur. WooCommerce -> Ayarlar -> Ödemeler -> PayPal'a gidin ve \"PayPal "
+"Kimlik Simgesi\" alanındaki değeri silin veya \"IPN E-posta Bildirimleri\" "
+"ayarını devre dışı bırakın."
+
+#: admin/pw-gift-cards-admin.php:295
+msgid "Dismiss this notice"
+msgstr "Bu bildirimi kapat"
+
+#: admin/pw-gift-cards-admin.php:322 admin/pw-gift-cards-admin.php:333 
+#: admin/pw-gift-cards-admin.php:354
+msgid "Pimwick Plugins"
+msgstr "Pimwick Eklentileri"
+
+#: admin/pw-gift-cards-admin.php:355
+msgid "Our Plugins"
+msgstr "Eklentilerimiz"
+
+#: admin/pw-gift-cards-admin.php:413
+msgid "Adjustment amount? Can be positive or negative."
+msgstr "Düzeltme miktarı? Olumlu veya olumsuz olabilir."
+
+#: admin/pw-gift-cards-admin.php:414 admin/ui/sections/activity-records.php:11 
+#: pw-gift-cards.php:279 
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:20
+msgid "Note"
+msgstr "Not"
+
+#: admin/pw-gift-cards-admin.php:415 admin/ui/sections/designer-panel.php:58 
+#: admin/ui/sections/designer-panel.php:92
+msgid "Select Image"
+msgstr "Fotoğraf seç"
+
+#: admin/pw-gift-cards-admin.php:416
+msgid "Use selected image"
+msgstr "Seçilen resmi kullan"
+
+#: admin/pw-gift-cards-admin.php:417
+msgid "Expiration Date (YYYY-MM-DD)"
+msgstr "Son Kullanma Tarihi (YYYY-AA-GG)"
+
+#: admin/pw-gift-cards-admin.php:418 
+#: admin/ui/sections/search-results-email-form.php:17
+msgid "Recipient Email Address"
+msgstr "Alıcı E-Postası"
+
+#: admin/pw-gift-cards-admin.php:419 admin/ui/sections/create.php:70 
+#: admin/ui/sections/import-results.php:21 
+#: admin/ui/sections/search-results-email-form.php:29 pw-gift-cards.php:135 
+#: templates/woocommerce/emails/customer-pw-gift-card.php:134
+msgid "From"
+msgstr "İtibaren"
+
+#: admin/pw-gift-cards-admin.php:420
+msgid "Note (optional)"
+msgstr "Not (opsiyonel)"
+
+#: admin/pw-gift-cards-admin.php:421
+msgid "Email has been sent."
+msgstr "Mail gönderildi."
+
+#: admin/pw-gift-cards-admin.php:422
+msgid "Are you sure you want to delete this design?"
+msgstr "Bu tasarımı silmek istediğinizden emin misiniz?"
+
+#: admin/pw-gift-cards-admin.php:423
+msgid "Note: Be sure to save changes before sending a preview email."
+msgstr ""
+"Not: Önizleme e-postası göndermeden önce değişiklikleri kaydettiğinizden "
+"emin olun."
+
+#: admin/pw-gift-cards-admin.php:424
+msgid "Recipient email address?"
+msgstr "Alıcı E-Postası?"
+
+#: admin/pw-gift-cards-admin.php:467
+msgid "Wait"
+msgstr "Bekle"
+
+#: admin/pw-gift-cards-admin.php:468
+msgid "Add"
+msgstr "Ekle"
+
+#: admin/pw-gift-cards-admin.php:469
+msgid "Remove"
+msgstr "Sil"
+
+#: admin/pw-gift-cards-admin.php:470 
+#: includes/class-wc-product-pw-gift-card.php:312
+msgid "Amount must be greater than zero."
+msgstr "Tutar sıfırdan büyük olmalıdır."
+
+#: admin/pw-gift-cards-admin.php:471
+msgid "Amount must be greater than minimum amount."
+msgstr "Tutar minimum miktardan büyük olmalıdır."
+
+#: admin/pw-gift-cards-admin.php:472
+msgid "Amount must be less than maximum amount."
+msgstr "Tutar, maksimum miktardan az olmalıdır."
+
+#: admin/pw-gift-cards-admin.php:473 admin/pw-gift-cards-admin.php:1157 
+#: includes/pw-gift-cards-redeeming.php:698 pw-gift-cards.php:1169
+msgid "Error"
+msgstr "Hata"
+
+#: admin/pw-gift-cards-admin.php:474 admin/ui/product-data-panel-cards.php:382
+msgid "Add a bonus amount"
+msgstr ""
+"Bonus miktarı ekleyin\n"
+
+#: admin/pw-gift-cards-admin.php:475
+msgid "Gift card amount that triggers the bonus?"
+msgstr "Bonusu tetikleyen hediye kartı tutarı?"
+
+#: admin/pw-gift-cards-admin.php:476
+msgid "Bonus gift card amount?"
+msgstr "Bonus hediye kartı tutarı?"
+
+#: admin/pw-gift-cards-admin.php:509 admin/pw-gift-cards-admin.php:1389 
+#: pw-gift-cards.php:128 pw-gift-cards.php:129
+msgid "Gift Card"
+msgstr "Hediye Kartı"
+
+#: admin/pw-gift-cards-admin.php:538 admin/ui/product-data-panel-cards.php:251
+msgid "Specify which products can be purchased using this gift card."
+msgstr ""
+"Bu hediye kartı kullanılarak hangi ürünlerin satın alınabileceğini belirtin."
+
+#: admin/pw-gift-cards-admin.php:539 admin/ui/product-data-panel-cards.php:250
+msgid "Redemption restrictions?"
+msgstr "İtfa kısıtlamaları?"
+
+#: admin/pw-gift-cards-admin.php:568 admin/ui/product-data-panel-cards.php:269
+msgid ""
+"Products that can be purchased using this gift card. Leave blank to allow "
+"all products except excluded products and categories."
+msgstr ""
+"Bu hediye kartı kullanılarak satın alınabilecek ürünler. Hariç tutulan "
+"ürünler ve kategoriler dışındaki tüm ürünlere izin vermek için boş bırakın."
+
+#: admin/pw-gift-cards-admin.php:584 admin/ui/product-data-panel-cards.php:285
+msgid "Products that cannot be purchased using this gift card."
+msgstr "Bu hediye kartı kullanılarak satın alınamayan ürünler."
+
+#: admin/pw-gift-cards-admin.php:600 admin/ui/product-data-panel-cards.php:299
+msgid ""
+"Product categories that can be purchased using this gift card. Leave blank "
+"to allow all categories except excluded products and categories."
+msgstr ""
+"Bu hediye kartı kullanılarak satın alınabilecek ürün kategorileri. Hariç "
+"tutulan ürünler ve kategoriler dışındaki tüm kategorilere izin vermek için "
+"boş bırakın."
+
+#: admin/pw-gift-cards-admin.php:613 admin/ui/product-data-panel-cards.php:312
+msgid "Product categories that cannot be purchased using this gift card."
+msgstr "Bu hediye kartı kullanılarak satın alınamayan ürün kategorileri."
+
+#: admin/pw-gift-cards-admin.php:629 admin/ui/product-data-panel-cards.php:319
+msgid "Exclude tax"
+msgstr "Vergi hariç"
+
+#: admin/pw-gift-cards-admin.php:631 admin/ui/product-data-panel-cards.php:321
+msgid ""
+"Check this box and tax will not be paid by this gift card when redeemed."
+msgstr ""
+"Bu kutuyu işaretleyin ve bu hediye kartı kullanıldığında vergi "
+"ödenmeyecektir."
+
+#: admin/pw-gift-cards-admin.php:631 admin/pw-gift-cards-admin.php:640 
+#: admin/ui/product-data-panel-cards.php:321 
+#: admin/ui/product-data-panel-cards.php:330
+msgid "Default: Unchecked"
+msgstr "Varsayılan: İşaretlenmemiş"
+
+#: admin/pw-gift-cards-admin.php:638 admin/ui/product-data-panel-cards.php:328
+msgid "Exclude Shipping"
+msgstr "Exclude Shipping"
+
+#: admin/pw-gift-cards-admin.php:640 admin/ui/product-data-panel-cards.php:330
+msgid ""
+"Check this box and shipping will not be paid by this gift card when redeemed."
+msgstr ""
+"Bu kutuyu işaretleyin ve kullanıldığında nakliye ücreti bu hediye kartıyla "
+"ödenmeyecektir."
+
+#. translators: %s is the product id.
+#: admin/pw-gift-cards-admin.php:804 admin/pw-gift-cards-admin.php:864
+msgid "Could not locate product id %s"
+msgstr "%s ürün kimliği bulunamadı"
+
+#: admin/pw-gift-cards-admin.php:828 admin/pw-gift-cards-admin.php:896
+msgid "Could not locate product using product_id "
+msgstr "product_id kullanılarak ürün bulunamadı"
+
+#: admin/pw-gift-cards-admin.php:848
+msgid "Gift Card Amount and Bonus amount are both required."
+msgstr "Hem Hediye Kartı Tutarı hem de Bonus miktarı gereklidir."
+
+#. translators: %1$s is the Spend amount, %2$s is the bonus card amount.
+#: admin/pw-gift-cards-admin.php:862 admin/ui/product-data-panel-cards.php:397
+msgid "Buy a %1$s gift card, get a %2$s bonus card"
+msgstr "%1$s hediye kartı satın alın, %2$s bonus kartı kazanın"
+
+#. translators: %s is the number of gift cards created.
+#: admin/pw-gift-cards-admin.php:1130
+msgid "%s created."
+msgstr "%s oluşturuldu."
+
+#: admin/pw-gift-cards-admin.php:1164
+msgid "Imported"
+msgstr "İçe aktartıldı"
+
+#: admin/pw-gift-cards-admin.php:1183
+msgid "Too many columns."
+msgstr "Çok fazla sütun."
+
+#: admin/pw-gift-cards-admin.php:1197
+msgid "Invalid gift card number"
+msgstr "Geçersiz hediye kartı numarası"
+
+#: admin/pw-gift-cards-admin.php:1205
+msgid "Invalid balance amount"
+msgstr "Geçersiz bakiye tutarı"
+
+#: admin/pw-gift-cards-admin.php:1216
+msgid "Invalid expiration date"
+msgstr "Geçersiz son kullanma tarihi"
+
+#: admin/pw-gift-cards-admin.php:1230
+msgid "Gift card number already exists."
+msgstr "Hediye kartı numarası zaten var."
+
+#: admin/pw-gift-cards-admin.php:1284 includes/class-pw-gift-card.php:170
+msgid "None"
+msgstr "Hiçbiri"
+
+#: admin/pw-gift-cards-admin.php:1305
+msgid "Malformed request."
+msgstr "Hatalı istek."
+
+#: admin/pw-gift-cards-admin.php:1373
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: admin/pw-gift-cards-admin.php:1471
+msgid "Unable to find suitable slug for check balance page."
+msgstr "Bakiyeyi çek sayfası için uygun bilgi bulunamadı."
+
+#: admin/pw-gift-cards-admin.php:1481 includes/pw-gift-cards-shortcodes.php:140
+msgid "Gift Card Balance"
+msgstr "Hediye Kartı Bakiyesi"
+
+#: admin/pw-gift-cards-admin.php:1521 includes/pw-gift-cards-shortcodes.php:122
+msgid "Balance adjusted."
+msgstr "Bakiye ayarlandı."
+
+#: admin/pw-gift-cards-admin.php:1523
+msgid "Note added."
+msgstr "Not eklendi."
+
+#: admin/pw-gift-cards-admin.php:1543 
+#: includes/pw-gift-cards-rest-controller.php:305
+msgid "Unable to parse expiration date."
+msgstr "Son kullanma tarihi ayrıştırılamıyor."
+
+#: admin/pw-gift-cards-admin.php:1548 admin/pw-gift-cards-admin.php:1596 
+#: admin/pw-gift-cards-admin.php:1620 admin/pw-gift-cards-admin.php:1634 
+#: admin/ui/sections/search-results-email-form.php:9
+msgid "Gift card not found."
+msgstr "Hediye kartı bulunamadı."
+
+#: admin/pw-gift-cards-admin.php:1578
+msgid "Gift Card Number and Email Address are both required."
+msgstr "Hem Hediye Kartı Numarası hem de E-posta Adresi gereklidir."
+
+#: admin/pw-gift-cards-admin.php:1655 admin/pw-gift-cards-admin.php:1714 
+#: admin/pw-gift-cards-admin.php:1770
+msgid "Error: Invalid Design ID"
+msgstr "Hata: Geçersiz Tasarım Kimliği"
+
+#. translators: %s is a counter.
+#: admin/pw-gift-cards-admin.php:1675
+msgid "Design %s"
+msgstr "Tasarım %s"
+
+#: admin/pw-gift-cards-admin.php:1712
+msgid "Design saved."
+msgstr "Tasarım kaydedildi."
+
+#: admin/pw-gift-cards-admin.php:1760
+msgid "Preview email system"
+msgstr "E-posta sistemini önizleyin"
+
+#: admin/pw-gift-cards-admin.php:1761 admin/ui/sections/create.php:66 
+#: admin/ui/sections/designer-panel.php:253 
+#: admin/ui/sections/search-results-email-form.php:23
+msgid "Recipient Name"
+msgstr "Alıcı Adı"
+
+#: admin/pw-gift-cards-admin.php:1762 admin/ui/sections/designer-panel.php:255
+msgid "Gift card message to the recipient from the sender."
+msgstr "Göndericiden alıcıya hediye kartı mesajı."
+
+#: admin/pw-gift-cards-admin.php:1768
+msgid "Email sent."
+msgstr "E-posta gönderildi."
+
+#: admin/ui/activation.php:9
+msgid "Enter the license key that was sent to your email address."
+msgstr "E-posta adresinize gönderilen hediye kartı numarasını girin."
+
+#: admin/ui/activation.php:12
+msgid "License Key"
+msgstr "Lisans Anahtarı"
+
+#: admin/ui/activation.php:13
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: admin/ui/activation.php:15 admin/ui/footer.php:12
+msgid "If you need assistance please contact us."
+msgstr "Yardıma ihtiyacınız varsa lütfen bizimle iletişime geçin."
+
+#: admin/ui/activation.php:23
+msgid ""
+"You may continue using the plugin with all features enabled, however you "
+"will no longer receive new updates and features until you renew."
+msgstr ""
+"Eklentiyi tüm özellikler etkin olarak kullanmaya devam edebilirsiniz, ancak "
+"siz yenileyene kadar artık yeni güncellemeler ve özellikler almayacaksınız."
+
+#: admin/ui/activation.php:25
+msgid "Renew your license"
+msgstr "Lisansınızı yenileyin"
+
+#: admin/ui/activation.php:26
+msgid "Hide this notice"
+msgstr "Bu bildirimi gizle"
+
+#. translators: %s is the PW Gift Card product type name.
+#: admin/ui/initial-setup.php:16
+msgid "Create a \"%s\" product to start selling Gift Cards."
+msgstr "Hediye Kartları satmaya başlamak için bir \"%s\" ürünü oluşturun."
+
+#: admin/ui/initial-setup.php:21
+msgid "Create the Gift Card product"
+msgstr "Hediye Kartı ürününü oluşturun"
+
+#: admin/ui/initial-setup.php:30 admin/ui/initial-setup.php:52
+msgid "Success!"
+msgstr "Başarılı!"
+
+#: admin/ui/initial-setup.php:31
+msgid ""
+"The Gift Card product has been created. Click on the Products menu in the "
+"left to edit it."
+msgstr ""
+"Hediye Kartı ürünü oluşturuldu. Düzenlemek için soldaki Ürünler menüsüne "
+"tıklayın."
+
+#: admin/ui/initial-setup.php:36
+msgid "Let your customers check their gift card balances."
+msgstr ""
+"Müşterilerinizin hediye kartı bakiyelerini kontrol etmesine izin verin."
+
+#: admin/ui/initial-setup.php:40
+msgid "Create the Check Gift Card Balance page."
+msgstr "Hediye Kartı Bakiyesini Kontrol Et sayfasını oluşturun."
+
+#. translators: %s is a link to the shortcode manual on wordpress.com
+#: admin/ui/initial-setup.php:45
+msgid "Create a page with the %s"
+msgstr "%s ile bir sayfa oluşturun"
+
+#: admin/ui/initial-setup.php:53
+msgid ""
+"The check gift card balance page has been created. Click on the Pages menu "
+"in the left to edit it."
+msgstr ""
+"Hediye kartı bakiyesini kontrol et sayfası oluşturuldu. Düzenlemek için "
+"soldaki Sayfalar menüsüne tıklayın."
+
+#: admin/ui/order-gift-card-total.php:14
+msgid "PW Gift Card"
+msgstr "Hediye Kartı"
+
+#: admin/ui/order-gift-card-total.php:19 
+#: includes/pw-gift-cards-purchasing.php:593
+msgid " (inactive)"
+msgstr "(inaktif)"
+
+#: admin/ui/order-gift-card-total.php:25 
+#: includes/pw-gift-cards-purchasing.php:591
+msgid "(deleted)"
+msgstr "(silinmiş)"
+
+#: admin/ui/product-data-panel-cards.php:9
+msgid "No default"
+msgstr "Standart değil"
+
+#: admin/ui/product-data-panel-cards.php:11
+msgid "The purchasing customer"
+msgstr "Satın alan müşteri"
+
+#: admin/ui/product-data-panel-cards.php:12
+msgid "The gift card recipient."
+msgstr "Hediye kartı alıcısı."
+
+#: admin/ui/product-data-panel-cards.php:114
+msgid "Physical gift card?"
+msgstr "Fiziksel hediye kartı mı?"
+
+#: admin/ui/product-data-panel-cards.php:116
+msgid ""
+"When checked, the generated gift card number will be emailed to address "
+"specified below. A physical gift card should be created and mailed to the "
+"Shipping Address on the order. Leave unchecked for traditional eGift cards. "
+"Default: Unchecked."
+msgstr ""
+"İşaretlendiğinde, oluşturulan hediye kartı numarası aşağıda belirtilen "
+"adrese e-posta ile gönderilecektir. Fiziksel bir hediye kartı oluşturulmalı "
+"ve siparişte Gönderim Adresine postalanmalıdır. Geleneksel eGift kartları "
+"için işaretlemeden bırakın. Varsayılan: İşaretlenmemiş."
+
+#: admin/ui/product-data-panel-cards.php:122
+msgid "Gift card amounts"
+msgstr "Hediye kartı tutarları"
+
+#: admin/ui/product-data-panel-cards.php:126
+msgid "The available fixed amounts that can be purchased."
+msgstr "Satın alınabilecek mevcut sabit tutarlar."
+
+#: admin/ui/product-data-panel-cards.php:155
+msgid "Allow custom amounts"
+msgstr "Özel miktarlara izin ver"
+
+#: admin/ui/product-data-panel-cards.php:157
+msgid "Allow the customer to specify the gift card amount when purchasing."
+msgstr ""
+"Müşterinin satın alırken hediye kartı tutarını belirtmesine izin verin."
+
+#: admin/ui/product-data-panel-cards.php:163
+msgid "Minimum amount"
+msgstr "Minimum miktar"
+
+#: admin/ui/product-data-panel-cards.php:169
+msgid ""
+"The minimum gift card amount that can be chosen by the customer. Required."
+msgstr "Müşteri tarafından seçilebilecek minimum hediye kartı tutarı. Gerekli."
+
+#: admin/ui/product-data-panel-cards.php:175
+msgid "Maximum amount"
+msgstr "En yüksek miktar"
+
+#: admin/ui/product-data-panel-cards.php:181
+msgid ""
+"The maximum gift card amount that can be chosen by the customer. Required."
+msgstr ""
+"Müşteri tarafından seçilebilecek maksimum hediye kartı tutarı. Gerekli."
+
+#: admin/ui/product-data-panel-cards.php:187
+msgid "Default amount"
+msgstr "Varsayılan tutar"
+
+#: admin/ui/product-data-panel-cards.php:190
+msgid ""
+"The amount that is pre-selected when a customer first views this product. "
+"They can choose another amount."
+msgstr ""
+"Bir müşteri bu ürünü ilk kez görüntülediğinde önceden seçilen miktar. Başka "
+"bir miktar seçebilirler."
+
+#: admin/ui/product-data-panel-cards.php:197
+msgid "Include recipient name"
+msgstr "Alıcı adını dahil et"
+
+#: admin/ui/product-data-panel-cards.php:199
+msgid ""
+"Allow the customer to specify a friendly name for the gift card recipient "
+"when purchasing. (Dad, Mom, Uncle Joe, etc)"
+msgstr ""
+"Müşterinin, satın alırken hediye kartı alıcısı için kolay bir ad "
+"belirtmesine izin verin. (Baba, Anne, Joe Amca, vb.)"
+
+#: admin/ui/product-data-panel-cards.php:206
+msgid "Ignore coupons"
+msgstr "Kuponları yoksay"
+
+#: admin/ui/product-data-panel-cards.php:208
+msgid ""
+"Check this box and coupons will not discount the purchase price of a gift "
+"card, although they will still apply to other items in the cart. Default: "
+"Unchecked."
+msgstr ""
+"Bu kutuyu işaretleyin ve kuponlar, alışveriş sepetindeki diğer ürünler için "
+"geçerli olmasına rağmen hediye kartının satın alma fiyatında indirim "
+"yapmayacaktır. Varsayılan: İşaretlenmemiş."
+
+#: admin/ui/product-data-panel-cards.php:214 
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:155
+msgid "Recipient email address"
+msgstr "Alıcı E-Postası"
+
+#: admin/ui/product-data-panel-cards.php:217
+msgid ""
+"The email address that will receive the generated gift card number. This "
+"person will print the gift card and mail it to the shipping address. Leave "
+"blank if you do not want to generate a gift card number for this product "
+"(for example, if you have pre-printed gift cards)."
+msgstr ""
+"Oluşturulan hediye kartı numarasını alacak e-posta adresi. Bu kişi hediye "
+"kartını yazdıracak ve kargo adresine postalayacaktır. Bu ürün için bir "
+"hediye kartı numarası oluşturmak istemiyorsanız (örneğin, önceden basılmış "
+"hediye kartlarınız varsa) boş bırakın."
+
+#: admin/ui/product-data-panel-cards.php:224
+msgid "Expires in X days"
+msgstr "X gün içinde sona eriyor"
+
+#: admin/ui/product-data-panel-cards.php:227
+msgid ""
+"(optional) The number of days after the purchase date when the gift card "
+"will expire. If blank, the gift card will not expire."
+msgstr ""
+"(isteğe bağlı) Satın alma tarihinden sonra hediye kartının süresinin "
+"dolacağı gün sayısı. Boşsa, hediye kartının süresi dolmaz."
+
+#. translators: %s is a link to the law for US-based stores.
+#: admin/ui/product-data-panel-cards.php:237
+msgid ""
+"In accordance with the %s, US-based gift cards should not expire for at "
+"least 5 years (1,825 days)."
+msgstr ""
+"%s uyarınca, ABD merkezli hediye kartlarının son kullanma tarihi en az 5 yıl "
+"(1.825 gün) olmamalıdır."
+
+#: admin/ui/product-data-panel-cards.php:251
+msgid "Can also be set at the Variation level."
+msgstr "Varyasyon düzeyinde de ayarlanabilir."
+
+#: admin/ui/product-data-panel-cards.php:341
+msgid "Show email preview"
+msgstr "E-posta önizlemesini göster"
+
+#: admin/ui/product-data-panel-cards.php:343
+msgid ""
+"Include a Preview button on the front end so the purchasing customer can see "
+"the gift card email. Default: Checked"
+msgstr ""
+"Satın alan müşterinin hediye kartı e-postasını görebilmesi için ön uca bir "
+"Önizleme düğmesi ekleyin. Varsayılan: İşaretlendi"
+
+#: admin/ui/product-data-panel-cards.php:347 
+#: admin/ui/sections/import-results.php:29 
+#: admin/ui/sections/search-results-email-form.php:41
+msgid "Email Design"
+msgstr "E-Posta Tasarımı"
+
+#: admin/ui/product-data-panel-cards.php:367
+msgid "Launch the Gift Card Designer"
+msgstr "Hediye Kartı Tasarımcısını Başlatın"
+
+#: admin/ui/product-data-panel-cards.php:376
+msgid "Enable bonus gift cards?"
+msgstr "Bonus hediye kartları etkinleştirilsin mi?"
+
+#: admin/ui/product-data-panel-cards.php:377
+msgid ""
+"Offering a bonus for purchasing gift cards is a great way to incentivise "
+"customers. For example: Buy a $25 gift card, get a $5 bonus card!"
+msgstr ""
+"Hediye kartları satın almak için bir bonus sunmak, müşterileri teşvik "
+"etmenin harika bir yoludur. Örneğin: 25$'lık bir hediye kartı alın, 5$'lık "
+"bir bonus kartı kazanın!"
+
+#: admin/ui/product-data-panel-cards.php:411
+msgid "Cumulative bonus"
+msgstr "Kümülatif ikramiye"
+
+#: admin/ui/product-data-panel-cards.php:412
+msgid ""
+"When checked, customer can purchase multiple gift cards to trigger the bonus."
+" Otherwise, exact amount must be purchased to trigger bonus."
+msgstr ""
+"İşaretlendiğinde, müşteri bonusu tetiklemek için birden fazla hediye kartı "
+"satın alabilir. Aksi takdirde, bonusu tetiklemek için tam tutar satın "
+"alınmalıdır."
+
+#: admin/ui/product-data-panel-cards.php:419
+msgid "Who will receive the bonus gift card?"
+msgstr "Bonus hediye kartını kim alacak?"
+
+#: admin/ui/section-buttons.php:11
+msgid "Balances"
+msgstr "Bakiyeler"
+
+#: admin/ui/section-buttons.php:15
+msgid "Email Designer"
+msgstr "E-posta Tasarımcısı"
+
+#: admin/ui/section-buttons.php:19
+msgid "Create Gift Cards"
+msgstr "Hediye Kartları Oluşturun"
+
+#: admin/ui/section-buttons.php:23
+msgid "Import / Export"
+msgstr "İçe Aktar / Dışa Aktar"
+
+#: admin/ui/section-buttons.php:27
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: admin/ui/sections/activity-records.php:8 
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:18
+msgid "Date"
+msgstr "Tarih"
+
+#: admin/ui/sections/activity-records.php:9
+msgid "Action"
+msgstr "Eylem"
+
+#: admin/ui/sections/activity-records.php:10 
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:19
+msgid "User"
+msgstr "Kullanıcı"
+
+#: admin/ui/sections/activity-records.php:12 pw-gift-cards.php:132 
+#: templates/woocommerce/emails/customer-pw-gift-card.php:171 
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:21
+msgid "Amount"
+msgstr "Miktar"
+
+#: admin/ui/sections/activity-records.php:13 
+#: admin/ui/sections/import-results.php:61 
+#: admin/ui/sections/search-results.php:15 
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:22
+msgid "Balance"
+msgstr "Denge"
+
+#: admin/ui/sections/activity-records.php:35 
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:43
+msgid "Guest"
+msgstr "Konuk"
+
+#: admin/ui/sections/balance-summary.php:42
+msgid "Active gift cards"
+msgstr "Aktif hediye kartları"
+
+#: admin/ui/sections/balance-summary.php:46
+msgid "Outstanding balances"
+msgstr "Ödenmemiş bakiyeler"
+
+#: admin/ui/sections/balance-summary.php:51 
+#: templates/woocommerce/cart/apply-gift-card.php:35
+msgid "Apply"
+msgstr "Uygula"
+
+#: admin/ui/sections/balance-summary.php:52
+msgid "Balances as of date"
+msgstr "Tarih itibariyle bakiyeler"
+
+#: admin/ui/sections/balances.php:14
+msgid "Gift card number or recipient email (leave blank for all)"
+msgstr "Hediye kartı numarası veya alıcı e-postası (tümü için boş bırakın)"
+
+#: admin/ui/sections/balances.php:15
+msgid "Search"
+msgstr "Ara"
+
+#: admin/ui/sections/create.php:11
+msgid "Number of cards to create"
+msgstr "Oluşturulacak kart sayısı"
+
+#: admin/ui/sections/create.php:15 
+#: templates/woocommerce/emails/customer-pw-gift-card.php:177 
+#: templates/woocommerce/pw-gift-cards/balance.php:82
+msgid "Gift Card Number"
+msgstr "Hediye Kartı Numarası"
+
+#: admin/ui/sections/create.php:15 admin/ui/sections/create.php:58 
+#: admin/ui/sections/create.php:62 admin/ui/sections/create.php:66 
+#: admin/ui/sections/create.php:70 admin/ui/sections/create.php:74 
+#: admin/ui/sections/search-results-email-form.php:23 
+#: admin/ui/sections/search-results-email-form.php:29 
+#: admin/ui/sections/search-results-email-form.php:35 
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:186
+msgid "(optional)"
+msgstr "(opsiyonel)"
+
+#: admin/ui/sections/create.php:15
+msgid "Existing gift card number to insert."
+msgstr "Eklenecek mevcut hediye kartı numarası."
+
+#: admin/ui/sections/create.php:24
+msgid "Gift Card Product"
+msgstr "Hediye Kartı Ürünü"
+
+#: admin/ui/sections/create.php:54
+msgid "Initial balance"
+msgstr "İlk bakiye"
+
+#: admin/ui/sections/create.php:58
+msgid "Expiration date"
+msgstr "Son kullanma tarihi"
+
+#: admin/ui/sections/create.php:62
+msgid "Recipient Email"
+msgstr "Alıcı E-Postası"
+
+#: admin/ui/sections/create.php:66 admin/ui/sections/create.php:70 
+#: admin/ui/sections/create.php:74
+msgid "Shown to the Recipient in the gift card email."
+msgstr "Hediye kartı e-postasında Alıcıya gösterilir."
+
+#: admin/ui/sections/create.php:74 
+#: admin/ui/sections/search-results-email-form.php:35 pw-gift-cards.php:136
+msgid "Message"
+msgstr "Mesaj"
+
+#: admin/ui/sections/create.php:79
+msgid "Email Design - Only used if Recipient Email has been specified."
+msgstr "E-posta Tasarımı - Yalnızca Alıcı E-postası belirtilmişse kullanılır."
+
+#: admin/ui/sections/create.php:96
+msgid ""
+"Note (optional) - Added to the Activity record in the admin area. Not shown "
+"to the customer."
+msgstr ""
+"Not (isteğe bağlı) - Yönetici alanındaki Etkinlik kaydına eklendi. Müşteriye "
+"gösterilmez."
+
+#: admin/ui/sections/create.php:102
+msgid "Send gift card email to Recipient Email if provided."
+msgstr "Varsa, Alıcı E-postasına hediye kartı e-postası gönderin."
+
+#: admin/ui/sections/create.php:108
+msgid "Create"
+msgstr "Oluştur"
+
+#: admin/ui/sections/designer-main.php:17
+msgid "Select a design to edit or add a new design."
+msgstr "Düzenlemek veya yeni bir tasarım eklemek için bir tasarım seçin."
+
+#: admin/ui/sections/designer-main.php:29
+msgid "Create a new design"
+msgstr "Yeni bir tasarım oluştur"
+
+#: admin/ui/sections/designer-main.php:35
+msgid ""
+"Edit the PW Gift Card product to specify which Email Designs can be selected "
+"by the purchasing customer."
+msgstr ""
+"Satın alan müşteri tarafından hangi E-posta Tasarımlarının seçilebileceğini "
+"belirtmek için PW Hediye Kartı ürününü düzenleyin."
+
+#: admin/ui/sections/designer-panel.php:14
+msgid "General"
+msgstr "Genel"
+
+#: admin/ui/sections/designer-panel.php:17
+msgid "Design name (visible to customers)"
+msgstr "Tasarım adı (müşteriler tarafından görülebilir)"
+
+#: admin/ui/sections/designer-panel.php:21
+msgid "Gift card title"
+msgstr "Hediye kartı başlığı"
+
+#: admin/ui/sections/designer-panel.php:25
+msgid "Gift card title color"
+msgstr "Hediye kartı başlık rengi"
+
+#: admin/ui/sections/designer-panel.php:26
+msgid "Gift card color"
+msgstr "Hediye kartı rengi"
+
+#: admin/ui/sections/designer-panel.php:29
+msgid "Additional content (HTML allowed)"
+msgstr "Ek içerik (HTML'ye izin verilir)"
+
+#: admin/ui/sections/designer-panel.php:33
+msgid "Additional content location"
+msgstr "Ek içerik konumu"
+
+#: admin/ui/sections/designer-panel.php:44 
+#: admin/ui/sections/designer-panel.php:72
+msgid "Left"
+msgstr "Sol"
+
+#: admin/ui/sections/designer-panel.php:45 
+#: admin/ui/sections/designer-panel.php:73
+msgid "Center"
+msgstr "Merkez"
+
+#: admin/ui/sections/designer-panel.php:46 
+#: admin/ui/sections/designer-panel.php:74
+msgid "Right"
+msgstr "Sağ"
+
+#: admin/ui/sections/designer-panel.php:53 
+#: admin/ui/sections/designer-panel.php:56
+msgid "Image"
+msgstr "Resim"
+
+#: admin/ui/sections/designer-panel.php:61
+msgid "Image location"
+msgstr "Görüntü konumu"
+
+#: admin/ui/sections/designer-panel.php:78
+msgid "Image dimensions"
+msgstr "Resim boyutları"
+
+#: admin/ui/sections/designer-panel.php:79
+msgid "Max width"
+msgstr "Maksimum genişlik"
+
+#: admin/ui/sections/designer-panel.php:81
+msgid "Max height"
+msgstr "Maksimum yükseklik"
+
+#: admin/ui/sections/designer-panel.php:84
+msgid "Additional content text color"
+msgstr "Ek içerik metin rengi"
+
+#: admin/ui/sections/designer-panel.php:90
+msgid "Gift card background image"
+msgstr "Hediye kartı arka plan resmi"
+
+#: admin/ui/sections/designer-panel.php:94
+msgid "Outlook does not display background images."
+msgstr "Outlook arka plan resimlerini göstermez."
+
+#: admin/ui/sections/designer-panel.php:95
+msgid "We recommend a 500x275 pixel image."
+msgstr "500x275 piksellik bir resim öneriyoruz."
+
+#: admin/ui/sections/designer-panel.php:96
+msgid "Sample"
+msgstr "Örnek"
+
+#: admin/ui/sections/designer-panel.php:116
+msgid "Redeem Button"
+msgstr "Ödeme Butonu"
+
+#: admin/ui/sections/designer-panel.php:119
+msgid "Redeem button color"
+msgstr "Düğme rengini kullan"
+
+#: admin/ui/sections/designer-panel.php:120
+msgid "Redeem button text color"
+msgstr "Düğme metin rengini kullan"
+
+#: admin/ui/sections/designer-panel.php:123
+msgid "Redeem Button Text"
+msgstr "Düğme Metnini Kullan"
+
+#: admin/ui/sections/designer-panel.php:127
+msgid "Redeem Button Visibility"
+msgstr "Düğme Görünürlüğünü Kullan"
+
+#: admin/ui/sections/designer-panel.php:129 
+#: admin/ui/sections/designer-panel.php:170
+msgid "Visible"
+msgstr "Görünür"
+
+#: admin/ui/sections/designer-panel.php:130 
+#: admin/ui/sections/designer-panel.php:171
+msgid "Hidden"
+msgstr "Gizlenmiş"
+
+#: admin/ui/sections/designer-panel.php:134
+msgid "Redeem URL"
+msgstr "URL'yi kullan"
+
+#: admin/ui/sections/designer-panel.php:137
+msgid ""
+"The link for the Redeem button on the gift card email. Include the https "
+"prefix, the Gift Card Number is automatically appended in the URL."
+msgstr ""
+"Hediye kartı e-postasındaki Kullan düğmesinin bağlantısı. https ön ekini "
+"ekleyin, Hediye Kartı Numarası URL'ye otomatik olarak eklenir."
+
+#: admin/ui/sections/designer-panel.php:145
+msgid "Additional Colors"
+msgstr "Ek Renkler"
+
+#: admin/ui/sections/designer-panel.php:148
+msgid "PDF Link Color"
+msgstr "PDF Link Rengi"
+
+#: admin/ui/sections/designer-panel.php:149
+msgid "Recipient text color"
+msgstr "Alıcı metin rengi"
+
+#: admin/ui/sections/designer-panel.php:150
+msgid "From text color"
+msgstr "Metin renginden"
+
+#: admin/ui/sections/designer-panel.php:151
+msgid "Message text color"
+msgstr "Mesaj yazı rengi"
+
+#: admin/ui/sections/designer-panel.php:152
+msgid "Amount label color"
+msgstr "Miktar etiket rengi"
+
+#: admin/ui/sections/designer-panel.php:153
+msgid "Amount color"
+msgstr "Miktar rengi"
+
+#: admin/ui/sections/designer-panel.php:154
+msgid "Gift card number label color"
+msgstr "Hediye kartı numarası etiket rengi"
+
+#: admin/ui/sections/designer-panel.php:155
+msgid "Gift card number color"
+msgstr "Hediye kartı numarası rengi"
+
+#: admin/ui/sections/designer-panel.php:156
+msgid "Expiration date label color"
+msgstr "Son kullanma tarihi etiket rengi"
+
+#: admin/ui/sections/designer-panel.php:157
+msgid "Expiration Date color"
+msgstr "Son kullanma tarihi rengi"
+
+#: admin/ui/sections/designer-panel.php:158
+msgid "Gift card border color"
+msgstr "Hediye kartı kenarlık rengi"
+
+#: admin/ui/sections/designer-panel.php:165
+msgid "PDF"
+msgstr "PDF"
+
+#: admin/ui/sections/designer-panel.php:168
+msgid "PDF Link Visibility"
+msgstr "PDF Link Görünürlüğü"
+
+#: admin/ui/sections/designer-panel.php:175
+msgid "PDF Link Text"
+msgstr "PDF Link Yazısı"
+
+#: admin/ui/sections/designer-panel.php:183
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: admin/ui/sections/designer-panel.php:186
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: admin/ui/sections/designer-panel.php:189
+msgid "Save and refresh the page after adding custom CSS."
+msgstr "Özel CSS ekledikten sonra sayfayı kaydedin ve yenileyin."
+
+#: admin/ui/sections/designer-panel.php:194
+msgid "Dropdown menu order"
+msgstr "Açılır menü sırası"
+
+#. translators: %s a link to the store's WooCommerce Email Settings page.
+#: admin/ui/sections/designer-panel.php:206
+msgid ""
+"Go to the %s to customize the background color, subject, email heading, and "
+"more."
+msgstr ""
+"Arka plan rengini, konuyu, e-posta başlığını ve daha fazlasını özelleştirmek "
+"için %s'ye gidin."
+
+#: admin/ui/sections/designer-panel.php:210
+msgid "Want even more control?"
+msgstr "Daha da fazla kontrol mü istiyorsunuz?"
+
+#: admin/ui/sections/designer-panel.php:212
+msgid ""
+"You can fully customize the gift card email to suit your needs. We use the "
+"built in WooCommerce email template system. To override the email you should "
+"copy this file"
+msgstr ""
+"Hediye kartı e-postasını tamamen ihtiyaçlarınıza göre özelleştirebilirsiniz. "
+"Yerleşik WooCommerce e-posta şablonu sistemini kullanıyoruz. E-postayı "
+"geçersiz kılmak için bu dosyayı kopyalamanız gerekir."
+
+#: admin/ui/sections/designer-panel.php:214
+msgid "To here"
+msgstr "Buraya"
+
+#: admin/ui/sections/designer-panel.php:216
+msgid ""
+"You may need to create the subfolders if they do not exist in your theme "
+"folder. Once the file is in your theme folder, open it up in a text editor "
+"and make any changes."
+msgstr ""
+"Tema klasörünüzde yoksa alt klasörler oluşturmanız gerekebilir. Dosya tema "
+"klasörünüze girdikten sonra onu bir metin düzenleyicide açın ve gerekli "
+"değişiklikleri yapın."
+
+#: admin/ui/sections/designer-panel.php:220
+msgid "Save design"
+msgstr "Tasarımı kaydet"
+
+#: admin/ui/sections/designer-panel.php:221
+msgid "Delete design"
+msgstr "Dizaynı sil"
+
+#: admin/ui/sections/designer-panel.php:236
+msgid "Custom template file detected!"
+msgstr "Özel şablon dosyası algılandı!"
+
+#: admin/ui/sections/designer-panel.php:239
+msgid ""
+"It appears as though you already have a custom email template file, your "
+"changes in the Designer may not appear when you actually send the email. "
+"Click the Send Preview Email button to confirm."
+msgstr ""
+"Halihazırda özel bir e-posta şablon dosyanız varmış gibi görünüyor, e-"
+"postayı gerçekten gönderdiğinizde Tasarımcı'daki değişiklikleriniz "
+"görünmeyebilir. Onaylamak için Önizleme E-postası Gönder düğmesine tıklayın."
+
+#: admin/ui/sections/designer-panel.php:244 
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:243
+msgid "Preview"
+msgstr "Önizleme"
+
+#: admin/ui/sections/designer-panel.php:247
+msgid "Send a preview email"
+msgstr "Önizleme e-postası gönder"
+
+#: admin/ui/sections/designer-panel.php:254
+msgid "The Purchasing Customer"
+msgstr "Satın Alma Müşterisi"
+
+#: admin/ui/sections/import-results.php:8
+msgid "THIS IS ONLY A PREVIEW"
+msgstr "BU SADECE BİR ÖNİZLEME"
+
+#: admin/ui/sections/import-results.php:10
+msgid ""
+"No cards have been imported yet. If the results look good, click on the "
+"\"Import cards\" button below to actually create the gift cards."
+msgstr ""
+"Henüz hiçbir kart içe aktarılmadı. Sonuçlar iyi görünüyorsa, hediye "
+"kartlarını fiilen oluşturmak için aşağıdaki \"Kartları içe aktar\" düğmesini "
+"tıklayın."
+
+#: admin/ui/sections/import-results.php:13
+msgid "Overwrite data for existing gift card numbers."
+msgstr "Mevcut hediye kartı numaraları için verilerin üzerine yazın."
+
+#: admin/ui/sections/import-results.php:16
+msgid ""
+"Email the gift card to the recipient if email address is included in the "
+"import."
+msgstr ""
+"E-posta adresi içe aktarma işlemine dahil edilmişse hediye kartını alıcıya e-"
+"posta ile gönderin."
+
+#: admin/ui/sections/import-results.php:45
+msgid "Import cards"
+msgstr "Kartları içe aktar"
+
+#: admin/ui/sections/import-results.php:59
+msgid "Row"
+msgstr "Row"
+
+#: admin/ui/sections/import-results.php:60 
+#: admin/ui/sections/search-results.php:14
+msgid "Card Number"
+msgstr "Kart numarası"
+
+#: admin/ui/sections/import-results.php:62 
+#: admin/ui/sections/search-results.php:16
+msgid "Expiration Date"
+msgstr "Expiration Date"
+
+#: admin/ui/sections/import-results.php:63 
+#: admin/ui/sections/search-results.php:17 pw-gift-cards.php:134
+msgid "Recipient"
+msgstr "Alıcı"
+
+#: admin/ui/sections/import-results.php:64
+msgid "Result"
+msgstr "Sonuç"
+
+#: admin/ui/sections/import-results.php:80
+msgid "OK"
+msgstr "Tamam"
+
+#: admin/ui/sections/import-results.php:84
+msgid "ERROR"
+msgstr "HATA"
+
+#. translators: %s is the valid record count.
+#: admin/ui/sections/import-results.php:99
+msgid "%s valid"
+msgstr "%s geçerli"
+
+#. translators: %s is the invalid record count.
+#: admin/ui/sections/import-results.php:105
+msgid "%s invalid"
+msgstr "%s geçersiz"
+
+#. translators: %s is the total records processed count.
+#: admin/ui/sections/import-results.php:111
+msgid "%s total records processed"
+msgstr "%s toplam kayıt işlendi"
+
+#: admin/ui/sections/import.php:11
+msgid "Import CSV File"
+msgstr "CSV Dosyasını İçe Aktar"
+
+#: admin/ui/sections/import.php:15
+msgid "Upload CSV File"
+msgstr "CSV Dosyasını Yükle"
+
+#: admin/ui/sections/import.php:19
+msgid "Import Instructions"
+msgstr "Talimatları İçe Aktar"
+
+#: admin/ui/sections/import.php:22
+msgid ""
+"Import a comma-separated value file (CSV) of existing gift card numbers. "
+"This is useful for importing physical gift cards sold to customers. You will "
+"see a preview of the results before anything is saved to the database."
+msgstr ""
+"Mevcut hediye kartı numaralarının virgülle ayrılmış değer dosyasını (CSV) "
+"içe aktarın. Bu, müşterilere satılan fiziksel hediye kartlarını içe aktarmak "
+"için kullanışlıdır. Veritabanına herhangi bir şey kaydedilmeden önce "
+"sonuçların bir önizlemesini göreceksiniz."
+
+#: admin/ui/sections/import.php:25
+msgid "The CSV should NOT have a header and the columns must be in this order:"
+msgstr "CSV'nin bir başlığı OLMAMALIDIR ve sütunlar şu sırada olmalıdır:"
+
+#: admin/ui/sections/import.php:28
+msgid ""
+"Gift Card Number, Balance, Expiration Date (optional), Recipient Email "
+"(optional)"
+msgstr ""
+"Hediye Kartı Numarası, Bakiye, Son Kullanma Tarihi (isteğe bağlı), Alıcı E-"
+"postası (isteğe bağlı)"
+
+#: admin/ui/sections/import.php:45
+msgid "Export your gift card data"
+msgstr "Hediye kartı verilerinizi dışa aktarın"
+
+#: admin/ui/sections/import.php:48
+msgid "Download CSV File"
+msgstr "CSV Dosyasını İndir"
+
+#: admin/ui/sections/search-results-email-form.php:56
+msgid "Save these values to this gift card."
+msgstr "Bu değerleri bu hediye kartına kaydedin."
+
+#: admin/ui/sections/search-results-email-form.php:60
+msgid "Send"
+msgstr "Gönder"
+
+#: admin/ui/sections/search-results-email-form.php:61
+msgid "Cancel"
+msgstr "İptal"
+
+#: admin/ui/sections/search-results-rows.php:34
+msgid "Card has been deleted."
+msgstr "Kart silindi."
+
+#: admin/ui/sections/search-results-rows.php:57
+msgid "View activity"
+msgstr "Etkinliği görüntüle"
+
+#: admin/ui/sections/search-results-rows.php:59
+msgid "Add a note"
+msgstr "Not ekleyin"
+
+#: admin/ui/sections/search-results-rows.php:60
+msgid "Adjust balance"
+msgstr "Dengeyi ayarla"
+
+#: admin/ui/sections/search-results-rows.php:61
+msgid "Set expiration date"
+msgstr "Son kullanma tarihini ayarla"
+
+#: admin/ui/sections/search-results-rows.php:62
+msgid "Email Gift Card"
+msgstr "E-posta Hediye Kartı"
+
+#: admin/ui/sections/search-results-rows.php:63
+msgid "Delete"
+msgstr "Sil"
+
+#: admin/ui/sections/search-results-rows.php:66
+msgid "Restore"
+msgstr "Onar"
+
+#: admin/ui/sections/search-results-rows.php:67
+msgid "Delete Permanently"
+msgstr "Kalıcı olarak sil"
+
+#: admin/ui/sections/search-results-rows.php:77
+msgid "Load more"
+msgstr "Daha fazla yükle"
+
+#: admin/ui/sections/search-results-rows.php:163
+msgid "Are you sure you want to delete this gift card?"
+msgstr "Bu hediye kartını silmek istediğinizden emin misiniz?"
+
+#: admin/ui/sections/search-results-rows.php:173
+msgid ""
+"Are you sure you want to PERMANENTLY delete this gift card? This action "
+"cannot be undone!"
+msgstr ""
+"Bu hediye kartını KALICI OLARAK silmek istediğinizden emin misiniz? Bu işlem "
+"geri alınamaz!"
+
+#: admin/ui/sections/search-results.php:7
+msgid "No results"
+msgstr "Sonuç yok"
+
+#: admin/ui/sections/search-results.php:8
+msgid "There are no gift cards found matching your search terms."
+msgstr "Arama terimlerinizle eşleşen hediye kartı bulunamadı."
+
+#: admin/ui/sections/settings.php:15
+msgid "Not receiving gift card emails?"
+msgstr "Hediye kartı e-postaları almıyor musunuz?"
+
+#: admin/ui/sections/settings.php:16
+msgid ""
+"Confirm that the Order Status is \"Complete\" for the gift cards purchased. "
+"You should see the Gift Card number along with the recipient email in the "
+"Order line items inside the admin area. If the order is Complete and it "
+"shows the Gift Card number, try disabling the WooCommerce Transactional "
+"Email System for the gift cards below."
+msgstr ""
+"Satın alınan hediye kartları için Sipariş Durumunun \"Tamamlandı\" olduğunu "
+"onaylayın. Hediye Kartı numarasını, yönetici alanındaki Sipariş satır "
+"öğelerinde alıcı e-postasıyla birlikte görmelisiniz. Sipariş Tamamlandıysa "
+"ve Hediye Kartı numarasını gösteriyorsa, aşağıdaki hediye kartları için "
+"WooCommerce İşlemsel E-posta Sistemini devre dışı bırakmayı deneyin."
+
+#: admin/ui/sections/settings.php:26
+msgid "Save Settings"
+msgstr "Ayarları kaydet"
+
+#: includes/class-pw-gift-card-activity.php:72
+msgid "Could not find activity record"
+msgstr "Etkinlik kaydı bulunamadı"
+
+#: includes/class-pw-gift-card-activity.php:84
+msgid "Invalid action value: "
+msgstr "Geçersiz işlem değeri:"
+
+#. translators: %1$s is the previous gift card number and %2$s is the new gift card number.
+#: includes/class-pw-gift-card.php:25
+msgid "Number changed from %1$s to %2$s"
+msgstr "%1$s olan sayı %2$s olarak değiştirildi"
+
+#: includes/class-pw-gift-card.php:108
+msgid "Card number does not exist."
+msgstr "Kart numarası mevcut değil."
+
+#: includes/class-pw-gift-card.php:111
+msgid "Enter a card number."
+msgstr "Bir kart numarası girin."
+
+#: includes/class-pw-gift-card.php:167 
+#: templates/woocommerce/cart/cart-pw-gift-card.php:38 
+#: templates/woocommerce/checkout/pw-gift-cards.php:36
+msgid "Expired"
+msgstr "Süresi doldu"
+
+#: includes/class-pw-gift-card.php:281
+msgid "Amount added should be greater than zero."
+msgstr "Eklenen miktar sıfırdan büyük olmalıdır."
+
+#: includes/class-pw-gift-card.php:294
+msgid "Amount deducted should be less than zero."
+msgstr "Kesinti tutarı sıfırdan küçük olmalıdır."
+
+#: includes/class-pw-gift-card.php:303
+msgid "Unable to adjust balance, card is not active."
+msgstr "Bakiye ayarlanamıyor, kart aktif değil."
+
+#: includes/class-pw-gift-card.php:485
+msgid "Card Number cannot be empty."
+msgstr "Kart Numarası boş geçilemez."
+
+#. translators: %1$s is the number, %2$s is the database table name, %3$s is the inserted gift card id, and %4$s is the database error message.
+#: includes/class-pw-gift-card.php:498
+msgid ""
+"Gift Card %1$s was inserted into table %2$s and received database id %3$s "
+"but it could not be retrieved. Last error: %4$s"
+msgstr ""
+"Hediye Kartı %1$s, %2$s tablosuna eklendi ve %3$s veritabanı kimliğini aldı, "
+"ancak alınamadı. Son hata: %4$s"
+
+#. translators: %1$s is the number, %2$s is the database table name, %3$s is the database error message.
+#: includes/class-pw-gift-card.php:502
+msgid "Gift Card %1$s could not be inserted into table %2$s. Last error: %3$s"
+msgstr "%1$s Hediye Kartı %2$s tablosuna eklenemedi. Son hata: %3$s"
+
+#: includes/class-pw-gift-card.php:508
+msgid "Unknown error in add_card method."
+msgstr "add_card yönteminde bilinmeyen hata."
+
+#. translators: %1$s is the property name, %2$s is the class name.
+#: includes/class-pw-gift-card.php:579
+msgid "Property %1$s does not exist on %2$s"
+msgstr "%1$s özelliği %2$s üzerinde mevcut değil"
+
+#: includes/class-wc-product-pw-gift-card.php:325
+msgid "Amount already exists: "
+msgstr "Tutar zaten var:"
+
+#: includes/class-wc-product-pw-gift-card.php:338
+msgid "Could not create variation."
+msgstr "Varyasyon oluşturulamadı."
+
+#: includes/class-wc-product-pw-gift-card.php:359
+msgid "Could not locate variation using variation_id "
+msgstr "variation_id kullanılarak varyasyon bulunamadı"
+
+#: includes/class-wc-product-pw-gift-card.php:683
+msgid "Select amount"
+msgstr "Miktarı seçin"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:13
+msgid "PW Gift Card Email"
+msgstr "Hediye Kartı E-postası"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:14
+msgid "This email is sent to the recipients of a gift card."
+msgstr "Bu e-posta, bir hediye kartının alıcılarına gönderilmiştir."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:16
+msgid "You were given a gift card"
+msgstr "Size bir hediye kartı verildi"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:17
+msgid "{sender} sent you a gift card"
+msgstr "{sender} size bir hediye kartı gönderdi"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:151
+msgid "Gift Card for Order #"
+msgstr "Sipariş # için Hediye Kartı"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:412
+msgid "Enable/Disable"
+msgstr "Etkinleştir / Devre Dışı Bırak"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:414
+msgid "Enable this email notification"
+msgstr "Bu e-posta bildirimini etkinleştir"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:418
+msgid "Subject"
+msgstr "Konu"
+
+#. translators: %s is the default email subject line.
+#: includes/emails/class-wc-email-pw-gift-card.php:421
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+"Bu, e-posta konu satırını kontrol eder. Varsayılan konuyu kullanmak için boş "
+"bırakın: <code>%s</code>."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:426
+msgid "Email Heading"
+msgstr "E-posta Başlığı"
+
+#. translators: %s is the default heading string.
+#: includes/emails/class-wc-email-pw-gift-card.php:429
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Bu, e-posta bildiriminde bulunan ana başlığı kontrol eder. Varsayılan "
+"başlığı kullanmak için boş bırakın: <code>%s</code>."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:434
+msgid "Email type"
+msgstr "E-posta türü"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:436
+msgid "Choose which format of email to send."
+msgstr "Hangi e-posta biçiminin gönderileceğini seçin."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:440
+msgid "Plain text"
+msgstr "Düz metin"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:441
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:442
+msgid "Multipart"
+msgstr "Çok parçalı"
+
+#: includes/pw-gift-cards-email-designer.php:28
+msgid "Top"
+msgstr "Üst"
+
+#: includes/pw-gift-cards-email-designer.php:29
+msgid "Before recipient"
+msgstr "Alıcıdan önce"
+
+#: includes/pw-gift-cards-email-designer.php:30
+msgid "Before Gift Card"
+msgstr "Hediye Kartından Önce"
+
+#: includes/pw-gift-cards-email-designer.php:31
+msgid "Gift Card Top"
+msgstr "Hediye Kartı"
+
+#: includes/pw-gift-cards-email-designer.php:32
+msgid "Gift Card Bottom"
+msgstr "Hediye Kartı Alt"
+
+#: includes/pw-gift-cards-email-designer.php:33
+msgid "After Gift Card"
+msgstr "Hediye Kartından Sonra"
+
+#: includes/pw-gift-cards-email-designer.php:34
+msgid "Bottom"
+msgstr "Alt"
+
+#: includes/pw-gift-cards-email-designer.php:87
+msgid "Default"
+msgstr "Varsayılan"
+
+#: includes/pw-gift-cards-email-designer.php:88
+msgid "Redeem"
+msgstr "Ödeme"
+
+#: includes/pw-gift-cards-email-designer.php:94
+msgid "View or print your gift card."
+msgstr "Hediye kartınızı görüntüleyin veya yazdırın."
+
+#. translators: %s is the store name (blog name)
+#: includes/pw-gift-cards-email-designer.php:98 
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:8
+msgid "%s Gift Card"
+msgstr "%s Hediye Kartı"
+
+#: includes/pw-gift-cards-email-designer.php:108
+msgid "Happy Birthday"
+msgstr "Doğum günün kutlu olsun"
+
+#: includes/pw-gift-cards-email-designer.php:109
+msgid "Happy Birthday!"
+msgstr "Doğum günün kutlu olsun!"
+
+#: includes/pw-gift-cards-email-designer.php:129
+msgid "Happy Anniversary"
+msgstr "Mutlu Yıl Dönümleri"
+
+#: includes/pw-gift-cards-email-designer.php:130
+msgid "Happy Anniversary!"
+msgstr "Mutlu Yıl Dönümleri!"
+
+#: includes/pw-gift-cards-email-designer.php:150
+msgid "Congratulations"
+msgstr "Congratulations"
+
+#: includes/pw-gift-cards-email-designer.php:151
+msgid "Congratulations!"
+msgstr "Congratulations!"
+
+#: includes/pw-gift-cards-email-designer.php:171
+msgid "Happy Holidays"
+msgstr "Happy Holidays"
+
+#: includes/pw-gift-cards-email-designer.php:172
+msgid "Happy Holidays!"
+msgstr "Happy Holidays!"
+
+#: includes/pw-gift-cards-email-designer.php:192
+msgid "Merry Christmas"
+msgstr "Mutlu Noeller"
+
+#: includes/pw-gift-cards-email-designer.php:193
+msgid "Merry Christmas!"
+msgstr "Mutlu Noeller!"
+
+#: includes/pw-gift-cards-purchasing.php:74
+msgid "Choose an amount"
+msgstr "Bir miktar seçin"
+
+#. translators: %s is the minimum order amount.
+#: includes/pw-gift-cards-purchasing.php:168
+msgid "The minimum amount is %s."
+msgstr "Minimum miktar %s'dir."
+
+#. translators: %s is the maximum order amount.
+#: includes/pw-gift-cards-purchasing.php:174
+msgid "The maximum amount is %s."
+msgstr "Maksimum miktar %s'dir."
+
+#: includes/pw-gift-cards-purchasing.php:178
+msgid "Amount is required"
+msgstr "Tutar gerekli"
+
+#. translators: %1$s is the order id, %2$s is the billing first name, %3$s is the billing last name.
+#: includes/pw-gift-cards-purchasing.php:404
+msgid "Order %1$s purchased by %2$s %3$s"
+msgstr "%2$s %3$s tarafından satın alınan %1$s siparişi"
+
+#: includes/pw-gift-cards-purchasing.php:434
+msgid "Unable to retrieve variation "
+msgstr "Varyasyon alınamıyor"
+
+#: includes/pw-gift-cards-purchasing.php:504
+msgid "Bonus Gift Card"
+msgstr "Bonus Hediye Kartı"
+
+#: includes/pw-gift-cards-purchasing.php:597
+msgid "Bonus"
+msgstr "Bonus"
+
+#: includes/pw-gift-cards-purchasing.php:661
+msgid "Generated and emailed after the order is marked Complete."
+msgstr ""
+"Sipariş Tamamlandı olarak işaretlendikten sonra oluşturulur ve e-postayla "
+"gönderilir."
+
+#. translators: %s is the count of gift cards redeemed.
+#: includes/pw-gift-cards-redeeming.php:413
+msgid "Gift card %s:"
+msgid_plural "Gift cards %s:"
+msgstr[0] "Hediye Kartı %s:"
+msgstr[1] "Hediye Kartları %s:"
+
+#. translators: %s is the shipping method.
+#: includes/pw-gift-cards-redeeming.php:490
+msgid "Shipping via %s"
+msgstr "%s üzerinden gönderim"
+
+#: includes/pw-gift-cards-redeeming.php:559 
+#: includes/pw-gift-cards-redeeming.php:618 
+#: includes/pw-gift-cards-redeeming.php:691 pw-gift-cards.php:223
+msgid "This gift card has a zero balance."
+msgstr "Bu hediye kartında sıfır bakiye var."
+
+#: includes/pw-gift-cards-redeeming.php:563 
+#: includes/pw-gift-cards-redeeming.php:695 pw-gift-cards.php:227
+msgid "Gift card applied."
+msgstr "Hediye kartı uygulandı."
+
+#: includes/pw-gift-cards-redeeming.php:579
+msgid "Gift card removed."
+msgstr "Hediye kartı kaldırıldı."
+
+#: includes/pw-gift-cards-redeeming.php:611
+msgid "Gift cards cannot be used to purchase other gift cards."
+msgstr "Hediye kartları başka hediye kartları satın almak için kullanılamaz."
+
+#: includes/pw-gift-cards-redeeming.php:614
+msgid "This gift card is expired."
+msgstr "Bu hediye kartının süresi doldu."
+
+#: includes/pw-gift-cards-redeeming.php:621 
+#: includes/pw-gift-cards-shortcodes.php:60
+msgid "Card is inactive."
+msgstr "Kart aktif değil."
+
+#: includes/pw-gift-cards-rest-controller.php:49
+msgid "Unique identifier for the gift card."
+msgstr "Hediye kartı için benzersiz tanımlayıcı."
+
+#: includes/pw-gift-cards-rest-controller.php:156 
+#: includes/pw-gift-cards-rest-controller.php:273 
+#: includes/pw-gift-cards-rest-controller.php:365
+msgid "Gift Card Not Found"
+msgstr "Hediye Kartı Bulunamadı"
+
+#. translators: %s is the gift card number.
+#: includes/pw-gift-cards-rest-controller.php:196 
+#: includes/pw-gift-cards-rest-controller.php:277
+msgid "Gift Card Number %s already exists."
+msgstr "%s Hediye Kartı Numarası zaten var."
+
+#: includes/pw-gift-cards-rest-controller.php:287
+msgid "Balance must be zero or greater."
+msgstr "Bakiye sıfır veya daha büyük olmalıdır."
+
+#: includes/pw-gift-cards-rest-controller.php:377
+msgid "The specific gift card number to retrieve."
+msgstr "Alınacak özel hediye kartı numarası."
+
+#. translators: %s is the default maximum number of rows.
+#: includes/pw-gift-cards-rest-controller.php:382
+msgid "The number of gift cards to retrieve. Default is %s"
+msgstr "Alınacak hediye kartı sayısı. Varsayılan %s"
+
+#: includes/pw-gift-cards-rest-controller.php:391
+msgid "The gift card number. Must not exist in the database already."
+msgstr "Hediye kartı numarası. Zaten veritabanında bulunmamalıdır."
+
+#: includes/pw-gift-cards-rest-controller.php:396
+msgid ""
+"The number of gift cards to generate. Ignored if the \"number\" parameter "
+"has a value."
+msgstr ""
+"Oluşturulacak hediye kartlarının sayısı. \"number\" parametresinin bir "
+"değeri varsa yoksayılır."
+
+#: includes/pw-gift-cards-rest-controller.php:400
+msgid "Initial gift card balance."
+msgstr "İlk hediye kartı bakiyesi."
+
+#: includes/pw-gift-cards-rest-controller.php:404
+msgid "The expiration date for the gift card."
+msgstr "Hediye kartının son kullanma tarihi."
+
+#: includes/pw-gift-cards-rest-controller.php:408 
+#: includes/pw-gift-cards-rest-controller.php:469
+msgid ""
+"Set to a true value to email the gift card to the recipient_email specified."
+msgstr ""
+"Hediye kartını belirtilen alıcı_e-posta adresine e-posta ile göndermek için "
+"gerçek bir değere ayarlayın."
+
+#: includes/pw-gift-cards-rest-controller.php:412 
+#: includes/pw-gift-cards-rest-controller.php:473
+msgid "The email address that will receive the gift card."
+msgstr "Hediye kartını alacak e-posta adresi."
+
+#: includes/pw-gift-cards-rest-controller.php:416 
+#: includes/pw-gift-cards-rest-controller.php:477
+msgid ""
+"The friendly name of the recipient of the gift card. Shown on the gift card "
+"email."
+msgstr ""
+"Hediye kartının alıcısının kolay adı. Hediye kartı e-postasında gösterilir."
+
+#: includes/pw-gift-cards-rest-controller.php:420 
+#: includes/pw-gift-cards-rest-controller.php:481
+msgid ""
+"The friendly name of the person who sent the gift card to the recipient."
+msgstr "Hediye kartını alıcıya gönderen kişinin kolay adı."
+
+#: includes/pw-gift-cards-rest-controller.php:424 
+#: includes/pw-gift-cards-rest-controller.php:485
+msgid "The body of the message added to the email."
+msgstr "E-postaya eklenen mesajın gövdesi."
+
+#: includes/pw-gift-cards-rest-controller.php:428
+msgid ""
+"Adds a note to the gift card activity record when the gift card is created."
+msgstr ""
+"Hediye kartı oluşturulduğunda hediye kartı etkinlik kaydına bir not ekler."
+
+#: includes/pw-gift-cards-rest-controller.php:432 
+#: includes/pw-gift-cards-rest-controller.php:493
+msgid "The database ID of the Email Design to use when sending the gift card."
+msgstr ""
+"Hediye kartını gönderirken kullanılacak E-posta Tasarımının veritabanı "
+"kimliği."
+
+#: includes/pw-gift-cards-rest-controller.php:436 
+#: includes/pw-gift-cards-rest-controller.php:497
+msgid ""
+"The originating product_id to use for this gift card. Used for redemption "
+"validation."
+msgstr ""
+"Bu hediye kartı için kullanılacak kaynak product_id. İtfa doğrulaması için "
+"kullanılır."
+
+#: includes/pw-gift-cards-rest-controller.php:440 
+#: includes/pw-gift-cards-rest-controller.php:501
+msgid ""
+"The originating variation_id to use for this gift card. Used for redemption "
+"validation."
+msgstr ""
+"Bu hediye kartı için kullanılacak kaynak varyasyon_kimliği. İtfa doğrulaması "
+"için kullanılır."
+
+#: includes/pw-gift-cards-rest-controller.php:444 
+#: includes/pw-gift-cards-rest-controller.php:505
+msgid ""
+"The originating order_item_id to use for this gift card. Used for record "
+"keeping purposes."
+msgstr ""
+"Bu hediye kartı için kullanılacak kaynak order_item_id. Kayıt tutma amacıyla "
+"kullanılır."
+
+#: includes/pw-gift-cards-rest-controller.php:453
+msgid ""
+"Changes the gift card number to this value. Must not exist in the database "
+"already."
+msgstr ""
+"Hediye kartı numarasını bu değere değiştirir. Zaten veritabanında "
+"bulunmamalıdır."
+
+#: includes/pw-gift-cards-rest-controller.php:457
+msgid "Balance adjustment amount. Can be positive or negative."
+msgstr "Bakiye düzeltme tutarı. Olumlu veya olumsuz olabilir."
+
+#: includes/pw-gift-cards-rest-controller.php:461
+msgid ""
+"Set the balance to a specific value. This will add a transaction for the "
+"appropriate amount to set the balance to this value."
+msgstr ""
+"Bakiyeyi belirli bir değere ayarlayın. Bu, bakiyeyi bu değere ayarlamak için "
+"uygun miktarda bir işlem ekleyecektir."
+
+#: includes/pw-gift-cards-rest-controller.php:465
+msgid ""
+"The expiration date for the gift card. Send an empty value to clear the "
+"expiration date."
+msgstr ""
+"Hediye kartının son kullanma tarihi. Son kullanma tarihini temizlemek için "
+"boş bir değer gönderin."
+
+#: includes/pw-gift-cards-rest-controller.php:489
+msgid "Adds a note to the gift card activity record."
+msgstr "Hediye kartı etkinlik kaydına bir not ekler."
+
+#: includes/pw-gift-cards-rest-controller.php:509
+msgid ""
+"Send a true value to deactivate the gift card. Send a false value to "
+"reactivate a previously deactivated gift card."
+msgstr ""
+"Hediye kartını devre dışı bırakmak için gerçek bir değer gönderin. Önceden "
+"devre dışı bırakılmış bir hediye kartını yeniden etkinleştirmek için yanlış "
+"bir değer gönderin."
+
+#: includes/pw-gift-cards-rest-controller.php:519
+msgid "Whether to bypass trash and force deletion."
+msgstr "Çöp kutusunun atlanıp silinmeyeceği."
+
+#: pw-gift-cards.php:120
+msgid "Other amount"
+msgstr "Diğer miktar"
+
+#: pw-gift-cards.php:126
+msgid "Gift Card Amount"
+msgstr "Hediye Kartı Tutarı"
+
+#: pw-gift-cards.php:130
+msgid "Adding to Gift Card"
+msgstr "Hediye Kartına Ekleme"
+
+#: pw-gift-cards.php:131
+msgid "Reloaded"
+msgstr "Yeniden yüklendi"
+
+#: pw-gift-cards.php:133 
+#: templates/woocommerce/emails/customer-pw-gift-card.php:124
+msgid "To"
+msgstr "İle"
+
+#: pw-gift-cards.php:137 pw-gift-cards.php:411
+msgid "Delivery Date"
+msgstr "Teslim Tarihi"
+
+#: pw-gift-cards.php:138
+msgid "Bonus Amount"
+msgstr "Bonus Tutarı"
+
+#: pw-gift-cards.php:139
+msgid "Design"
+msgstr "Dizayn"
+
+#: pw-gift-cards.php:277
+msgid "Required"
+msgstr "Gerekli"
+
+#: pw-gift-cards.php:278
+msgid "Amount to debit?"
+msgstr "Borçlandırılacak tutar?"
+
+#. translators: %s is the woocommerce currency symbol.
+#: pw-gift-cards.php:281
+msgid "Minimum amount is %s"
+msgstr "Minimum miktar %s"
+
+#. translators: %s is the woocommerce currency symbol.
+#: pw-gift-cards.php:283
+msgid "Maximum amount is %s"
+msgstr "Maksimum miktar %s"
+
+#: pw-gift-cards.php:284
+msgid ""
+"The \"To\" field should only contain email addresses. The following "
+"recipients do not look like valid email addresses:"
+msgstr ""
+"\"Kime\" alanı yalnızca e-posta adreslerini içermelidir. Aşağıdaki alıcılar "
+"geçerli e-posta adreslerine benzemiyor:"
+
+#: pw-gift-cards.php:287
+msgid "January"
+msgstr "Ocak"
+
+#: pw-gift-cards.php:288
+msgid "February"
+msgstr "Şubat"
+
+#: pw-gift-cards.php:289
+msgid "March"
+msgstr "Mart"
+
+#: pw-gift-cards.php:290
+msgid "April"
+msgstr "Nisan"
+
+#: pw-gift-cards.php:291
+msgid "May"
+msgstr "Mayıs"
+
+#: pw-gift-cards.php:292
+msgid "June"
+msgstr "Haziran"
+
+#: pw-gift-cards.php:293
+msgid "July"
+msgstr "Temmuz"
+
+#: pw-gift-cards.php:294
+msgid "August"
+msgstr "Ağustos"
+
+#: pw-gift-cards.php:295
+msgid "September"
+msgstr "Eylül"
+
+#: pw-gift-cards.php:296
+msgid "October"
+msgstr "Ekim"
+
+#: pw-gift-cards.php:297
+msgid "November"
+msgstr "Kasım"
+
+#: pw-gift-cards.php:298
+msgid "December"
+msgstr "Aralık"
+
+#: pw-gift-cards.php:299
+msgid "Sun"
+msgstr "Pzr"
+
+#: pw-gift-cards.php:300
+msgid "Mon"
+msgstr "Pzt"
+
+#: pw-gift-cards.php:301
+msgid "Tue"
+msgstr "Salı"
+
+#: pw-gift-cards.php:302
+msgid "Wed"
+msgstr "Çar"
+
+#: pw-gift-cards.php:303
+msgid "Thu"
+msgstr "Perşembe"
+
+#: pw-gift-cards.php:304
+msgid "Fri"
+msgstr "Cum"
+
+#: pw-gift-cards.php:305
+msgid "Sat"
+msgstr "Cmts"
+
+#: pw-gift-cards.php:306 pw-gift-cards.php:313
+msgid "Sunday"
+msgstr "Pazar"
+
+#: pw-gift-cards.php:307
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: pw-gift-cards.php:308
+msgid "Tuesday"
+msgstr "Salı"
+
+#: pw-gift-cards.php:309
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: pw-gift-cards.php:310
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: pw-gift-cards.php:311
+msgid "Friday"
+msgstr "Cuma"
+
+#: pw-gift-cards.php:312
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#. translators: %s is the WooCommerce minimum version number.
+#: pw-gift-cards.php:469
+msgid "Requires WooCommerce version %s or later."
+msgstr "WooCommerce sürüm %s veya üzerini gerektirir."
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:21
+msgid "Gift Card:"
+msgstr "Hediye kartı:"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:22 
+#: templates/woocommerce/cart/apply-gift-card.php:34 
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:21 
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:16
+msgid "Gift card number"
+msgstr "Hediye kartı numarası"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:23 
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:25
+msgid "Apply gift card"
+msgstr "Hediye kartı uygula"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:23 
+#: templates/woocommerce/cart/apply-gift-card.php:35 
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:25 
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:17
+msgid "Please wait..."
+msgstr "Lütfen bekleyin..."
+
+#: templates/woocommerce/cart/apply-gift-card.php:32 
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:13 
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:14
+msgid "Have a gift card?"
+msgstr "Hediye kartınız var mı?"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:26 
+#: templates/woocommerce/checkout/pw-gift-cards.php:27
+msgid "Gift card"
+msgstr "Hediye kartı"
+
+#. translators: %s is the formatted balance.
+#: templates/woocommerce/cart/cart-pw-gift-card.php:31 
+#: templates/woocommerce/checkout/pw-gift-cards.php:30
+msgid "Remaining balance is %s"
+msgstr "Kalan bakiye %s"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:45
+msgid "Gift Card Total"
+msgstr "Hediye Kartı Toplamı"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:47 
+#: templates/woocommerce/checkout/pw-gift-cards.php:45
+msgid "[Remove]"
+msgstr "[Sil]"
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:13
+msgid "Click here to enter your gift card number"
+msgstr "Hediye kartı numaranızı girmek için buraya tıklayın"
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:18
+msgid "If you have a gift card number, please apply it below."
+msgstr "Hediye kartı numaranız varsa, lütfen aşağıya uygulayın."
+
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:17
+msgid "Apply Gift Card"
+msgstr "Hediye Kartını Uygula"
+
+#: templates/woocommerce/emails/customer-pw-gift-card.php:187 
+#: templates/woocommerce/pw-gift-cards/balance.php:94
+msgid "Expires"
+msgstr "Süresi doluyor"
+
+#. translators: %s is the gift card amount.
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:11
+msgid "Amount: %s"
+msgstr "Miktar: %s"
+
+#. translators: %s is the gift card number.
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:14
+msgid "Gift card number: %s"
+msgstr "Hediye kartı numarası: %s"
+
+#. translators: %s is the link to redeem the gift card.
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:17
+msgid "Link: %s"
+msgstr "Link: %s"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:21
+msgid "Message:"
+msgstr "Mesaj:"
+
+#: templates/woocommerce/pw-gift-cards/balance.php:79
+msgid "Check Gift Card Balance"
+msgstr "Hediye Kartı Bakiyesini Kontrol Et"
+
+#: templates/woocommerce/pw-gift-cards/balance.php:83
+msgid "Check Balance"
+msgstr "Bakiyeyi kontrol et"
+
+#: templates/woocommerce/pw-gift-cards/balance.php:105
+msgid "Add more funds to this gift card."
+msgstr "Bu hediye kartına daha fazla para ekleyin."
+
+#: templates/woocommerce/pw-gift-cards/balance.php:112
+msgid "Debit Balance"
+msgstr "Borç bakiyesi"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:143
+msgid ""
+"Gift card will be delivered to the Shipping Address entered during checkout."
+msgstr ""
+"Hediye kartı, ödeme sırasında girilen Gönderim Adresine teslim edilecektir."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:151
+msgid "Enter an email address for each recipient"
+msgstr "Her alıcı için bir e-posta adresi girin"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:152
+msgid "Separate multiple email addresses with a comma."
+msgstr "Birden çok e-posta adresini virgülle ayırın."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:174
+msgid "Enter a friendly name for the recipient (optional)."
+msgstr "Alıcı için bir ad girin (isteğe bağlı)."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:182
+msgid "Your name"
+msgstr "Adınız"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:187
+msgid "Add a message"
+msgstr "Mesaj ekleyin"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:188
+msgid "characters remaining"
+msgstr "kalan karakterler"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:196
+msgid "Now"
+msgstr "Şimdi"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:197
+msgid "Up to a year from today"
+msgstr "Bugünden itibaren bir yıla kadar"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:250
+msgid "Quantity"
+msgstr "Miktar"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:251
+msgid "1 to each recipient"
+msgstr "her alıcıya 1"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-reload.php:54
+msgid "You are adding funds to the following gift card:"
+msgstr "Aşağıdaki hediye kartına para ekliyorsunuz:"
