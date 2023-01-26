@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2022-06-17T17:19:23+00:00\n"
-"PO-Revision-Date: 2023-01-26 08:06+0000\n"
+"PO-Revision-Date: 2023-01-26 08:09+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: pw-woocommerce-gift-cards\n"
 "Language: tr-TR\n"
@@ -482,7 +482,7 @@ msgstr "Alıcı E-Postası"
 #: admin/ui/sections/search-results-email-form.php:29 pw-gift-cards.php:135 
 #: templates/woocommerce/emails/customer-pw-gift-card.php:134
 msgid "From"
-msgstr "İtibaren"
+msgstr "Gönderici Adı"
 
 #: admin/pw-gift-cards-admin.php:420
 msgid "Note (optional)"
